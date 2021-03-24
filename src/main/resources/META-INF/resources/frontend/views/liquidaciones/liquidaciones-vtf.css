@@ -1,0 +1,32 @@
+:host([theme~="liquidacion"])  {
+    padding: 0 !important;
+    margin-top: 8px !important;
+    margin-bottom: 2px !important;
+
+}
+
+
+:host([theme~="numero"])  {
+    padding: 0 !important;
+    margin-top: 8px !important;
+    margin-bottom: 2px !important;
+    --lumo-text-field-size: 2em;
+}
+
+:host([theme~="numero"]) [part="value"] {
+    alignment: right !important;
+    text-align: right !important;
+    -webkit-mask-image: none;
+}
+
+:host([theme~="total"]) [part="value"] {
+    font-size: 110%;
+    color: #103fb0;
+    font-weight: bold;
+}
+
+:host([theme~="total-gral"]) [part="value"] {
+    font-size: 160%;
+    color: #a52a2a;
+    font-weight: bold;
+}

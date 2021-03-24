@@ -1,0 +1,26 @@
+.upload-image{
+    display: flex;
+    flex-direction: column;
+
+}
+.upload-image .upload-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content: space-between;
+}
+
+
+
+.upload-image .upload-container .preview{
+    border-radius:  9px;
+    alignment: center;
+    border: #303069 solid thin;
+    padding: 3px;
+
+}
+
+.upload-image button{
+
+}

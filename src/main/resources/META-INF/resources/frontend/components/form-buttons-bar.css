@@ -1,0 +1,16 @@
+
+footer.form-button-bar {
+    box-shadow: 0 -1px var(--lumo-contrast-20pct);
+    display: flex;
+    padding: var(--lumo-space-xs) var(--lumo-space-m);
+    z-index: 1;
+}
+
+
+footer.form-button-bar vaadin-button:not(:last-child) {
+    margin-right: var(--lumo-space-xs);
+}
+
+footer.form-button-bar vaadin-button:last-child {
+    margin-left: auto;
+}

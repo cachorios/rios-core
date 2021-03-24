@@ -1,0 +1,20 @@
+.simple-form{
+    flex-direction: column;
+    padding: var(--lumo-space-xs) var(--lumo-space-m);
+}
+
+/*.simple-form footer {*/
+/*    box-shadow: 0 -1px var(--lumo-contrast-20pct);*/
+/*    display: flex;*/
+/*    padding: var(--lumo-space-xs) var(--lumo-space-m);*/
+/*    z-index: 1;*/
+/*}*/
+
+
+/*.simple-form  footer vaadin-button:not(:last-child) {*/
+/*    margin-right: var(--lumo-space-xs);*/
+/*}*/
+
+/*.simple-form  footer vaadin-button:last-child {*/
+/*    margin-left: auto;*/
+/*}*/

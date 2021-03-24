@@ -1,0 +1,19 @@
+
+.grid-liq{
+
+}
+
+[part~="cell"].warn {
+    background: #4b74b2;
+    color: #f3efef;
+}
+
+.blanco {
+    color: #ffffff;
+    font-size: 140%;
+    horiz-align: center;
+    align-items: center;
+
+}
+
+

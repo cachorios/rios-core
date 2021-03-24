@@ -1,0 +1,18 @@
+.sc-find{
+    display: flex;
+    height: 100%;
+    width: 100%;
+    flex-direction: column;
+}
+.sc-find .grid {
+    flex-grow: 1;
+    width: 100%;
+    z-index: 3;
+    order: 3;
+}
+.sc-find .search-bar{
+    margin-right-right: 50px;
+    padding-right: 5em;
+    /*background-color: #531f00;*/
+
+}

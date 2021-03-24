@@ -1,0 +1,28 @@
+.abm-form{
+    align-items: initial;
+    display: flex;
+    /*flex-direction: row;*/
+    /*align-items: initial;*/
+    alignment: top;
+    /*alignment: top;*/
+    /*justify-content: end;*/
+    /*background-color: cadetblue;*/
+
+}
+
+
+
+/*.abm-form vaadin-form-layout:host #layout {*/
+/*    align-items: center !important;*/
+/*    background-color: red !important;*/
+/*    display: block;*/
+/*}*/
+
+
+/* [theme~="my-form-layout"]   {*/
+/*    display: grid;*/
+/*    background-color: #f5dcd1;*/
+/*    align-items: stretch !important;*/
+/*    padding: 10em;*/
+/*    margin: 100px;*/
+/*}*/

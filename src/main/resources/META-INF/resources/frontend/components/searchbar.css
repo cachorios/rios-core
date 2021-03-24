@@ -1,0 +1,65 @@
+.search-bar{
+    position: relative;
+    z-index: 2;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    padding: 0 var(--lumo-space-s);
+    background-image: linear-gradient(var(--lumo-shade-20pct), var(--lumo-shade-20pct));
+    background-color: var(--lumo-base-color);
+    box-shadow: 0 0 16px 2px var(--lumo-shade-20pct);
+    order: 2;
+    height:48px;
+    width: 100%;
+}
+
+.search-bar .row {
+    display: flex;
+    align-items: center;
+    height: 3em;
+}
+
+.search-bar .field {
+    flex: 1;
+    width: auto;
+    padding-right: var(--lumo-space-s );
+}
+
+
+.search-bar vaadin-button:not(:last-child) {
+    margin-right: var(--lumo-space-xs);
+}
+
+.search-bar vaadin-button:last-child {
+    margin-left: auto;
+}
+
+@media (min-width: 700px) {
+    :host {
+        order: 0;
+    }
+
+    .search-bar .row {
+        width: 100%;
+        max-width: 75vw;
+        margin: 0 auto;
+    }
+
+    .checkbox,
+    .clear-btn,
+    :host([show-extra-filters]) .action-btn {
+        display: none;
+    }
+
+    .search-bar .field {
+        padding-right: var(--lumo-space-m);
+    }
+
+    :host([show-checkbox][show-extra-filters]) .checkbox.desktop {
+        display: block;
+    }
+
+    :host([show-checkbox][show-extra-filters]) .checkbox.mobile {
+        display: none;
+    }
+}

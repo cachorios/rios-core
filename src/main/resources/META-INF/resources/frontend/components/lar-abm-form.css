@@ -1,0 +1,31 @@
+.abm-form{
+    display: flex;
+    height: 100%;
+    width: 100%;
+    flex-direction: column;
+}
+
+.abm-form .strech{
+    padding: 0;
+    margin: 0;
+}
+
+.abm-form .titulo{
+    color: #303069;
+    margin-top: 0;
+    padding-top: 0;
+    font-family: "Helvetica";
+    margin-bottom: 0;
+}
+
+.abm-form hr{
+
+    background-color: #303069;
+    height: 1px;
+}
+
+.abm-form .borrar{
+    background-color: #303069;
+    color: red;
+
+}
